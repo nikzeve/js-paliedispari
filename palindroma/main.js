@@ -1,4 +1,4 @@
-
+// palindroma: scrivere una funzione per capire se una parola è palindroma. Quindi chiedere una parola all'utente, utilizzare la funzione per sapere se la parola inserita è palindroma e stampare un messaggio appropriato
 
 function controllo_palindromo(parola_utente) {
     var valore_inverso = parola_utente.split('').reverse().join('');
@@ -11,4 +11,4 @@ function controllo_palindromo(parola_utente) {
 }
 
 var parola_utente = prompt('Inserisci una parola per controllare se è palindroma o meno.');
-var valore_inverso = 0;
+controllo_palindromo(parola_utente)
